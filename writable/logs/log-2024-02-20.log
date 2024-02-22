@@ -1,0 +1,71 @@
+WARNING - 2024-02-20 22:09:41 --> [DEPRECATED] Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in APPPATH/Controllers/Main.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(309): include_once('/opt/lampp/htdocs/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/app/Controllers/Main.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 5 SYSTEMPATH/CodeIgniter.php(899): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-20 22:09:44 --> [DEPRECATED] Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in APPPATH/Controllers/Main.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(309): include_once('/opt/lampp/htdocs/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/app/Controllers/Main.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 5 SYSTEMPATH/CodeIgniter.php(899): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-20 22:09:53 --> [DEPRECATED] Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in APPPATH/Controllers/Main.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(309): include_once('/opt/lampp/htdocs/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/app/Controllers/Main.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 5 SYSTEMPATH/CodeIgniter.php(899): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-20 22:10:04 --> [DEPRECATED] Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in APPPATH/Controllers/Main.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(309): include_once('/opt/lampp/htdocs/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/app/Controllers/Main.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 5 SYSTEMPATH/CodeIgniter.php(899): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-02-20 22:10:07 --> [DEPRECATED] Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead in APPPATH/Controllers/Main.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(309): include_once('/opt/lampp/htdocs/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/app/Controllers/Main.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 5 SYSTEMPATH/CodeIgniter.php(899): class_exists('\\App\\Controllers\\Main', true)
+ 6 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-20 22:41:07 --> ArgumentCountError: Too few arguments to function App\Controllers\Main::ph_num(), 1 passed in /opt/lampp/htdocs/system/CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH/Controllers/Main.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Main->ph_num('3')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-20 22:41:24 --> ArgumentCountError: Too few arguments to function App\Controllers\Main::ph_num(), 1 passed in /opt/lampp/htdocs/system/CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH/Controllers/Main.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Main->ph_num('3')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-20 23:01:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pagina.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pagina.php')
+ 2 SYSTEMPATH/Router/RouteCollection.php(1116): CodeIgniter\View\View->render('pagina', null)
+ 3 SYSTEMPATH/CodeIgniter.php(890): CodeIgniter\Router\RouteCollection::CodeIgniter\Router\{closure}()
+ 4 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-20 23:02:10 --> TypeError: App\Controllers\Main::index(): Return value must be of type string, none returned
+in APPPATH/Controllers/Main.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Main->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
